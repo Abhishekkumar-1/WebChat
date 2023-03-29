@@ -1,0 +1,103 @@
+
+.logout{
+    text-decoration: none;
+    color: rgb(229, 19, 19);
+    font-weight: 450;
+    font-size: 17px;
+    /* background: rgb(122, 100, 100); */
+    /* border: 0.5px solid black;
+    border-radius: 5px; */
+}
+.users{
+    padding: 25px 30px;
+}
+.users header,.users-list a{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+}
+.wrapper img{
+    object-fit:cover;
+    border-radius: 50%;
+}
+.content img{
+    height: 50px;width: 50px;
+}
+.content{
+    display: flex;
+}
+.details{
+    margin-top: 7px;
+    margin-left: 11px;
+}
+.details span{
+    font-weight: 600;
+    font-family: 'Algerian','Calibri','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px; 
+}
+.details p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px; 
+}
+.search{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.text{
+    font-size: 18px;
+}
+.search input{
+    position: absolute;
+    height: 42px;
+    width: 87%;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+.search button{
+    width: 47px;
+    height: 42px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #333;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+.users-list{
+    max-height: 350px;
+    overflow-y: auto;
+}
+.users-list::-webkit-scrollbar{
+    width: 0;
+}
+.users-list a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+    page-break-after: 10px;
+    border-bottom-color: #f1f1f1;
+}
+.userslist a:last-child{
+    border: none;
+    margin-bottom: 0px;
+}
+.users-list .status-dot{
+    font-size: 12px;
+    color: #468846;
+}
+.users-list .content p{
+    color:#67676a;
+}
+.users-list .status-dot .offline{
+    font-size: 12px;
+    color: #ccc;
+}
